@@ -1,0 +1,74 @@
+body{
+    font-family: Arial;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.contenedor2{
+    display: flex;
+    border: 2px solid;
+    padding: 4%;
+    justify-content: center;
+    background-color: #023361;
+    border-radius: 10px;
+}
+
+.contenedor3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.etiqueta{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.contenedor4{
+    color: white;
+}
+
+.etiqueta2{
+    color: white;
+    display: block;
+}
+.letra{
+    display: flex;
+    
+}
+
+.contenedor5{
+    border-radius: 5px;
+}
+
+.boton{
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+
+.boton1{
+    color: white;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: #ff0000;
+    cursor: pointer;  
+}
+
+.button2{
+    color: white;
+    background-color: #0085ff;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    border: #0085ff;
+    cursor: pointer;
+}
