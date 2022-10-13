@@ -3,8 +3,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   
-    
         <div class="contenedor">
             <div class="contenedor2">
                 <form>
@@ -12,18 +10,20 @@
 
                         <div class="contenedor4">
                         <label class="etiqueta2">Cadena de texto</label><span></span>
-                        <input size="40" type="text" class="espacio">
+                        <input size="40" type="text" class="espacio" id="labell">
                     </div>
 
                  <div class="contenedor5">
-                    <button class="boton1">Limpiar</button>
-                    <button class="boton2">Calcular</button>
+                    <button class="boton1" type="button" style="visibility: hidden ;" id="limpiarr" onclick="limpiado()">Limpiar</button>
+                    <button class="boton2" onclick="repetida()" type="button">Calcular</button>
                     </div>
 
                 </form>
         </div>
         </div>
 
-    
+        <div id="respuesta" class="resp"></div>
+
+  <script src="parte de logica.js"></script>  
 </body>
 </html>
